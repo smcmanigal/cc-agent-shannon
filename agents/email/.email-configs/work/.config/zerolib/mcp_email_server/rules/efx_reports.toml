@@ -1,0 +1,50 @@
+[[rules]]
+name = "EFX Report Outputs"
+account = "work"
+target_folder = "EFX Reports Output"
+senders = [
+    "supportnotifications@efxfs.com",
+]
+subjects = [
+    "Daily Balances By Cassette Report",
+    "ATM Boss Active Terminal List",
+    "ATM Boss Terminal Status",
+    "ATM Boss Cash Load",
+    "ATM Boss Daily Terminal Transaction Summary",
+    "Daily Transactions Report",
+    "Daily Transaction report",
+    "Settled Deposit Report",
+    "New Terminals Installed With Transactions Report",
+]
+source_mailbox = "INBOX"
+mark_read = true
+
+[[rules]]
+name = "Routine Transaction Check Report"
+account = "work"
+target_folder = "EFX Alerting Emails"
+senders = [
+    "supportnotifications@efxfs.com",
+    "achreports@efxach.com",
+]
+subjects = [
+    "Routine Transaction Check Report",
+    "Transaction Count Issue",
+    "ACH Transaction file stuck in Uploaded status",
+]
+source_mailbox = "INBOX"
+mark_read = false
+
+[[rules]]
+name = "Otter Emails to Trash"
+account = "work"
+target_folder = "Trash"
+senders = [
+    "no-reply@otter.ai",
+]
+subjects = [
+    "in Otter",
+    "Meeting Summary",
+]
+source_mailbox = "INBOX"
+mark_read = true

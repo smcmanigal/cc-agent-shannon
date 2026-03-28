@@ -1,0 +1,128 @@
+[[rules]]
+name = "Social Media"
+account = "personal"
+target_folder = "INBOX.A - Social Media"
+senders = [
+    "info@twitter.com",
+    "notify@twitter.com",
+    "no-reply@rs.email.nextdoor.com",
+    "noreply@glassdoor.com",
+    "info@mail.glassdoor.com",
+    "reply@rs.email.nextdoor.com",
+]
+
+[[rules]]
+name = "Zillow"
+account = "personal"
+target_folder = "INBOX.A - Zillow"
+senders = [
+    "market-updates@mail.zillow.com",
+    "daily-updates@mail.zillow.com",
+]
+
+[[rules]]
+name = "Junk"
+account = "personal"
+target_folder = "INBOX.Junk"
+senders = [
+    "pr.judicialwatch.org",
+    "blackeyepolitics.net",
+    "conservativedailyalerts.com",
+    "humaverse.com",
+    "newsletter.thekidsguide.com",
+    "blackeyepolitics.com",
+    "blackeyepolitics.org",
+    "americanpatriotdaily.net",
+    "trumpshowdown.com",
+    "thedcbugle.net",
+    "greatamericandigest.org",
+    "rightwingreport.com",
+    "2025battleground.com",
+    "swampdigest.co",
+    "rightwingreport",
+    "rightwingreport.org",
+    "news@daily.freespoke.com",
+    "us.americansdirect.net",
+    "intellectualconservative.com",
+    "bestamericanow.com",
+    "watch.trythatinasmalltown.com",
+    "editor.thepostmillennial.com",
+    "swampdigest.com",
+    "americanpatriotdaily.com",
+    "trumpshowdown.org",
+]
+
+[[rules]]
+name = "Ads"
+account = "personal"
+target_folder = "INBOX.Ads"
+senders = [
+    "e.frysmail.com",
+    "em.dsw.com",
+    "e.dsw.com",
+    "email-totalwine.com",
+    "sodastream@shop.sodastream.com",
+    "marketing@pca.aero",
+    "shop@emails.macys.com",
+    "autozone@e.autozone.com",
+    "pty.bashas.com",
+    "chloe@getfpv.com",
+    "lowes@e.lowes.com",
+    "info@email.jacksonhole.com",
+    "Kohls@s.kohls.com",
+    "microcenter@microcenterinsider.com",
+    "MidwayUSA@email.midwayusa.com",
+    "news@mail.hobbyking.com",
+    "deals@emails.flyfrontier.com",
+    "news@goto.cheaperthandirt.com",
+    "Promo@promo.newegg.com",
+    "e.harborfreight.com",
+    "cs@advantage.com",
+    "info@e.goodsamroadside.com",
+    "HomeDepotCustomerCare@email.homedepot.com",
+    "BestBuyInfo@emailinfo.bestbuy.com",
+    "no-reply@e.allegiant.com",
+    "info@diypestcontrol.com",
+    "BedBath&Beyond@emailbedbathandbeyond.com",
+    "wyndhamrewards@e-mails.wyndhamrewards.com",
+    "homedepotdecor@email.homedepot.com",
+    "wyndhamrewards@emails.wyndhamhotels.com",
+    "store-news@woot.com",
+    "reply@email3.discountfilters.com",
+    "homedepotpro@mg.homedepot.com",
+    "postmaster@goto.cheaperthandirt.com",
+    "info@tforods.com",
+    "EddieVSPrimeSeafood@e.eddiev.com",
+    "news@offleaseonly.com",
+    "marketing@tforods.com",
+    "email@email-autoclubgroup.aaa.com",
+    "info@6dollarshirts.com",
+    "no-reply@frankspeech.com",
+    "panera@e1.panerabread.com",
+    "hello@prohealthlongevity.com",
+    "koa@camp.koa.com",
+    "memberservices@mail.aopa.org",
+    "emarketing@trifacta.com",
+    "marketing@theroasterie.com",
+    "bombas@email.bombas.com",
+    "BedBath&Beyond@email.bedbathandbeyond.com",
+    "panera@m1.panerabread.com",
+    "microcenter@email.microcenter.com",
+    "email@marketing.cabelas.com",
+    "HomeDepotCustomerCare@mg.homedepot.com",
+    "service.servicecentral-email@dmea1.com",
+    "delish@newsletter.delish.com",
+    "extremeterrain@em.extremeterrain.com",
+    "newsletter@unboxed.uphold.com",
+    "oldnavy@email.oldnavy.com",
+    "response@news.mypatriotsupply.com",
+    "news@email.cheaperthandirt.com",
+    "wellness@prohealth.com",
+    "marriottvacationclub@email1.marriott-vacations.com",
+    "newsletter@deals.banggood.com",
+    "email@marketing.basspro.com",
+    "customerservice@cheaperthandirt.com",
+    "shop@longer3d.com",
+    "avis@e.avis.com",
+    "email@e.wineexpress.com",
+]
