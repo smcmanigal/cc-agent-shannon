@@ -65,19 +65,24 @@ TOML-based rules that match by sender or subject and move matched emails to targ
 
 ### Running Rules
 
+Rules are a **CLI command** (not an MCP tool). Run them via Bash with the appropriate HOME override to select the account.
+
 Preview matches without moving (always do this first for new rules):
-```
-rules apply --dry-run
-```
-
-Apply all rules:
-```
-rules apply
+```bash
+HOME=/workspace/.email-configs/personal mcp-email-server rules apply --dry-run
 ```
 
-Filter by account:
+Apply all rules for an account:
+```bash
+HOME=/workspace/.email-configs/personal mcp-email-server rules apply
+HOME=/workspace/.email-configs/work mcp-email-server rules apply
 ```
-rules apply --account <account>
+
+Additional options:
+```bash
+mcp-email-server rules apply --file <rulefile>   # specific rule file
+mcp-email-server rules apply --limit 50          # cap emails per rule
+mcp-email-server rules apply --since "2026-01-01T00:00:00"  # only recent emails
 ```
 
 ### Key Details
@@ -101,13 +106,13 @@ If schedules already exist (check with CronList first), skip creation — don't 
 
 ## Work Email Rules (3x daily)
 
-- **`0 7 * * *`** — Apply all work email filter rules via the `email-work` MCP server's `rules_apply` tool. If the "Routine Transaction Check Report" rule matched any emails, send a Telegram notification with the match count and destination folder. If no matches on that rule, stay silent. Other rules run silently.
+- **`0 7 * * *`** — Apply all work email filter rules via Bash: `HOME=/workspace/.email-configs/work mcp-email-server rules apply`. If the "Routine Transaction Check Report" rule matched any emails, send a Telegram notification with the match count and destination folder. If no matches on that rule, stay silent. Other rules run silently.
 - **`30 10 * * *`** — Same as above.
 - **`45 15 * * *`** — Same as above.
 
 ## Personal Email Rules (1x daily)
 
-- **`0 8 * * *`** — Apply all personal email filter rules via the `email-personal` MCP server's `rules_apply` tool. No notification needed — just file silently.
+- **`0 8 * * *`** — Apply all personal email filter rules via Bash: `HOME=/workspace/.email-configs/personal mcp-email-server rules apply`. No notification needed — just file silently.
 
 ## Schedule Renewal (daily)
 
