@@ -15,6 +15,9 @@ subjects = [
     "Daily Transaction report",
     "Settled Deposit Report",
     "New Terminals Installed With Transactions Report",
+    "Transaction Counts",
+    "WesBanco Monthly Transaction Volume Report",
+    "ACE Cash Express Transaction Monthly Report",
 ]
 source_mailbox = "INBOX"
 mark_read = true
