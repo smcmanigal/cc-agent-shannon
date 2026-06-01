@@ -1,4 +1,12 @@
 [[rules]]
+name = "[Sunset 2026-10-01] Canyon Vistas Activities"
+account = "personal"
+target_folder = "INBOX.Trash"
+senders = [
+    "christinad@cal-am.com",
+]
+
+[[rules]]
 name = "Social Media"
 account = "personal"
 target_folder = "INBOX.A - Social Media"
@@ -51,6 +59,8 @@ senders = [
     "swampdigest.com",
     "americanpatriotdaily.com",
     "trumpshowdown.org",
+    "smail.triviapeak.com",
+    "mv.health",
 ]
 
 [[rules]]
@@ -84,7 +94,7 @@ senders = [
     "BestBuyInfo@emailinfo.bestbuy.com",
     "no-reply@e.allegiant.com",
     "info@diypestcontrol.com",
-    "BedBath&Beyond@emailbedbathandbeyond.com",
+    "email@promotion.bedbathandbeyond.com",
     "wyndhamrewards@e-mails.wyndhamrewards.com",
     "homedepotdecor@email.homedepot.com",
     "wyndhamrewards@emails.wyndhamhotels.com",
@@ -106,7 +116,6 @@ senders = [
     "emarketing@trifacta.com",
     "marketing@theroasterie.com",
     "bombas@email.bombas.com",
-    "BedBath&Beyond@email.bedbathandbeyond.com",
     "panera@m1.panerabread.com",
     "microcenter@email.microcenter.com",
     "email@marketing.cabelas.com",
@@ -126,4 +135,6 @@ senders = [
     "shop@longer3d.com",
     "avis@e.avis.com",
     "email@e.wineexpress.com",
+    "sales@rockymountainatv.com",
+    "@info.nra.org",
 ]
