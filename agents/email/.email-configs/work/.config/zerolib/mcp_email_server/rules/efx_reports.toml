@@ -4,13 +4,14 @@ account = "work"
 target_folder = "EFX Reports Output"
 senders = [
     "supportnotifications@efxfs.com",
+    "no-reply@efxfs.com",
 ]
 subjects = [
     "Daily Balances By Cassette Report",
     "ATM Boss Active Terminal List",
     "ATM Boss Terminal Status",
     "ATM Boss Cash Load",
-    "ATM Boss Daily Terminal Transaction Summary",
+    "Daily Terminal Transaction Summary",
     "Daily Transactions Report",
     "Daily Transaction report",
     "Settled Deposit Report",
