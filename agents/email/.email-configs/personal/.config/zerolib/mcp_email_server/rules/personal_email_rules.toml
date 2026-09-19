@@ -33,11 +33,11 @@ name = "Junk"
 account = "personal"
 target_folder = "INBOX.Junk"
 senders = [
-    "pr.judicialwatch.org",
+    "judicialwatch.org",
     "blackeyepolitics.net",
     "conservativedailyalerts.com",
     "humaverse.com",
-    "newsletter.thekidsguide.com",
+    "thekidsguide.com",
     "blackeyepolitics.com",
     "blackeyepolitics.org",
     "americanpatriotdaily.net",
@@ -50,17 +50,18 @@ senders = [
     "rightwingreport",
     "rightwingreport.org",
     "lindelloffensefund.org",
-    "news@daily.freespoke.com",
-    "us.americansdirect.net",
+    "freespoke.com",
+    "americansdirect.net",
     "intellectualconservative.com",
     "bestamericanow.com",
-    "watch.trythatinasmalltown.com",
-    "editor.thepostmillennial.com",
+    "trythatinasmalltown.com",
+    "thepostmillennial.com",
     "swampdigest.com",
     "americanpatriotdaily.com",
     "trumpshowdown.org",
-    "smail.triviapeak.com",
+    "triviapeak.com",
     "mv.health",
+    "newsquiz.io",
 ]
 
 [[rules]]
@@ -136,7 +137,11 @@ senders = [
     "avis@e.avis.com",
     "email@e.wineexpress.com",
     "sales@rockymountainatv.com",
-    "@info.nra.org",
+    ".nra.org",
     "marketing.woot.com",
     "rockriverarms.com",
+    "m.learn.coursera.org",
+    "from.campspot.com",
+    "marketing@radiomasterrc.com",
+    "offers@email.thousandtrails.com",
 ]
