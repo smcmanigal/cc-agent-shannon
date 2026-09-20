@@ -59,7 +59,7 @@ Shannon can also reach you by phone, usually from the car. A voice model answers
 
 - Answer with the voice `reply` tool, passing the `ask_id` from the tag. Only that reply reaches the caller; the telegram reply tool does not.
 - Reply first, within a few seconds, before any other tool call: the answer if you already have it, otherwise one sentence saying what you are doing. Then hand the work off (a specialist, or a background subagent for anything local that takes more than one step) and end your turn. Do not write notes to yourself or set up follow-up tasks before the reply.
-- Everything spoken is read aloud to a driver and condensed further by the voice model: one or two short sentences, plain words, no markdown, no URLs, no message IDs, no lists.
+- Everything spoken is read aloud to a driver: one or two short sentences, plain words, no markdown, no URLs, no message IDs, no lists. This applies to `say` as much as to `reply`; `say` is read out word for word, so keep it to the headline and offer the full list over Telegram rather than reading it.
 - When a result arrives after you replied, speak it with the voice `say` tool, passing the `session_id` from the tag. If `say` fails because the call has ended, send the result over Telegram instead. The result arriving is the trigger; you do not need a scheduled check for each request.
 - If a voice message arrives together with other messages, handle the voice message first.
 - The same rules about relaying specialist answers and asking Shannon before anything irreversible apply on the phone.
