@@ -4,7 +4,7 @@ US → Buenos Aires → Ushuaia → Antarctica → Buenos Aires. Possible India 
 
 **Travellers:** Shannon McManigal, Hannah Freeman (hj.freeman@aol.com / freemanhannahj@gmail.com)
 **Assembled:** 2026-09-18, from the personal and gmail accounts via the email agent. Work account not searched.
-**Last updated:** 2026-09-18 with Shannon's corrections — Twin Window cabin, Hannah's own flights, India leg likely, transfers both directions.
+**Last updated:** 2026-09-22 — email agent update: insurance bought 21 Sep, final booking documents arrived 22 Sep, PIF reminder 21 Sep. (Previous: 2026-09-18 with Shannon's corrections.)
 
 ---
 
@@ -64,6 +64,19 @@ Gmail, Booking.com, 2026-09-18. Confirmation **5524431251** (a PIN was also issu
 
 ### India
 **Likely happening — Shannon said on 18 Sep 2026 they are probably going to India after Buenos Aires.** Nothing is booked, and nothing at all was found in either account. Swept for india, delhi/DEL, mumbai/BOM, bengaluru/BLR, chennai/MAA, hyderabad, kolkata, goa, jaipur, agra, kerala, rajasthan, Air India, IndiGo, Vistara, Akasa, e-visa, plus Emirates, Qatar, Etihad, Turkish, Lufthansa, BA, Air France, KLM. Only false positives ("Indian Rocks Beach", a Zillow "Del Rio"). If anything has been arranged it lives outside these two mailboxes. Since the return home will most likely start from India rather than Buenos Aires, **the India plan and the missing return flight are one decision, not two.**
+
+---
+
+## Update 2026-09-22 (from email agent, read-only)
+
+- **Insurance bought 21 Sep** via InsureMyTrip: AXA **Explorer Select**, policy **AGGUS000004456**, order AXMC4446463O. Covers Shannon + Hannah Freeman, destination Antarctica, **1–20 Nov 2026**, $68.93. Trip cost listed $0.00 → probably **no trip-cancellation cover**, mainly medical/evac. **Evacuation limit unconfirmed** (certificate is a PDF; email agent can't download attachments).
+  - Gaps to check: Shannon departs LAS 30 Oct (before cover starts); India leg would run past 20 Nov; Oceanwide asked for cancellation + medical/evac cover.
+- **Final booking documents arrived 22 Sep** ("Final booking documents #131965673"): boarding passes PDF, trip details, manuals. Luggage drop 3 Nov 08:00–11:30, Av. Maipú 1210 (green-roof building, ~750 m from pier per final docs). Embark 16:00–17:00. Disembark 15 Nov 09:00, bus 08:30–09:00, onward flights after 12:00. Oceanwide booked no flights.
+- **Rate/credit question closed**: Shannon confirmed 20 Sep the trip is paid in full; email agent says drop it.
+- **PIF reminder 21 Sep** for both Shannon and Hannah — still outstanding. Insurance blocker now cleared; PIF can be completed.
+- **Cabin type** still unconfirmed — likely on the boarding-pass PDF.
+- No emails since 18 Sep on: flight home / India, BA hotel, Ushuaia 15–18 Nov hotel, EZE↔AEP transfers.
+- Open question to Shannon (22 Sep): enable attachment download for email agent, or check AXA certificate + boarding pass PDFs himself.
 
 ---
 
