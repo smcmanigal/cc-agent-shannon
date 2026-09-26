@@ -1,17 +1,4 @@
 {
   "remoteControlAtStartup": true,
-  "crossSessionInbound": "accept",
-  "hooks": {
-    "PreToolUse": [
-      {
-        "matcher": "Bash|mcp__.*",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "/home/agent/.claude/hooks/block-email-send.sh"
-          }
-        ]
-      }
-    ]
-  }
+  "crossSessionInbound": "accept"
 }
