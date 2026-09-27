@@ -19,3 +19,8 @@ Priceline trip 168-567-176-27, rental confirmation **ACE27623145** (probably Ace
 - B2QO6X: opens Thu 1 Oct, 4:00 PM ET / 2:00 PM MDT.
 
 ADRAWK cancellation refunded its points (30,500 + $11.20 fees originally), per the Rapid Rewards notice on 22 Sep.
+
+## Lodging (added 2026-09-24, from email-agent)
+- Airbnb "#7 Beach access condo", confirmed. Check-in Mon 28 Sep, 4 PM. Checkout Fri 2 Oct, 10 AM.
+- Host Kayla will send parking and door-code info on check-in day.
+- Watch the timing: checkout is 10 AM, and flight WN 4216 TPA→LAS leaves 2 Oct at 4:00 PM ET.

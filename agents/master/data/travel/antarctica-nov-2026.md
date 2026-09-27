@@ -78,6 +78,12 @@ Gmail, Booking.com, 2026-09-18. Confirmation **5524431251** (a PIN was also issu
 - No emails since 18 Sep on: flight home / India, BA hotel, Ushuaia 15–18 Nov hotel, EZE↔AEP transfers.
 - Open question to Shannon (22 Sep): enable attachment download for email agent, or check AXA certificate + boarding pass PDFs himself.
 
+## Check 2026-09-24 (email agent, read-only)
+- No trip email since the final documents on 22 Sep 10:56 AM CT: nothing from Oceanwide or AXA, nothing sent by Shannon. Checked all three accounts.
+- The PIF reminder of 21 Sep is still the open item; no completion confirmation received.
+- No travel agent involved; booked directly with Oceanwide.
+- The hourly Oceanwide watch alerts Shannon on Telegram if anything new arrives.
+
 ---
 
 ## Gaps and deadlines, worst first

@@ -1,12 +1,4 @@
 [[rules]]
-name = "[Sunset 2026-10-01] Canyon Vistas Activities"
-account = "personal"
-target_folder = "INBOX.Trash"
-senders = [
-    "christinad@cal-am.com",
-]
-
-[[rules]]
 name = "Social Media"
 account = "personal"
 target_folder = "INBOX.A - Social Media"
