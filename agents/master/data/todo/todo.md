@@ -5,8 +5,8 @@ Added 2026-09-22. Shannon is in Tampa 28 Sep – 2 Oct, back around 3 Oct.
 ## Before Monday 28 Sep
 - [ ] **Truck tires:** get prices and book the appointment by Mon 28 Sep. The appointment itself should be in the first few days of Oct, after he's back. Truck: **2023 Ford F-350 Super Duty**, tires **LT245/75R17** (Shannon, 23 Sep). Location: Cedar City, UT. Likes Big O Tires, open to any good deal. Single vs dual rear wheels still unknown.
 - [ ] **Contractor payroll during Tampa:** the pay period ends Sat 26 Sep. Timesheets arrive about 26–28 Sep, and the Gusto payroll normally goes out 28–30 Sep while Shannon is travelling. Options: run Gusto from the road, or pay late (e.g. Mon 5 Oct). About $4,000–4,200 (finance-agent, 24 Sep).
-- [ ] **Taxes:** if they aren't done, get with the tax advisor to finish them. Telegram reminders are set for Fri 25 Sep and Mon 28 Sep at 9 AM MT; they're session-only, so if master-agent restarts they're lost (asked by phone 24 Sep).
-- [ ] **Salary:** contact Phyllis at work about renegotiating salary (changed from Silas by phone, 24 Sep). Telegram reminders are set for Fri 25 Sep and Mon 28 Sep at 9 AM MT, session-only (asked by phone 24 Sep). Private: don't share with other agents.
+- [ ] **Taxes:** if they aren't done, get with the tax advisor to finish them. Telegram reminders were sent Fri 25 Sep and Mon 28 Sep, 9 AM MT (asked by phone 24 Sep).
+- [ ] **Salary:** renegotiating with Phyllis at work. Shannon talked to her 28 Sep, and she said she would get back to him by Thu 1 Oct. Private Telegram check-in set for Thu 1 Oct, 12:03 PM MT (2:03 PM ET), session-only. Private: don't share with other agents.
 
 ## After returning (~3 Oct)
 - [ ] **Move agents back to local host:** master-agent, sales-agent and email-agent are temporarily running in the cloud because the original host went down. Move all three back to the local host.
