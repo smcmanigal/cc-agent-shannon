@@ -84,6 +84,30 @@ Gmail, Booking.com, 2026-09-18. Confirmation **5524431251** (a PIN was also issu
 - No travel agent involved; booked directly with Oceanwide.
 - The hourly Oceanwide watch alerts Shannon on Telegram if anything new arrives.
 
+## Gear rental (researched 2026-09-30)
+Oceanwide's rental partner is **New Headings**: oceanwide.newheadings.com (phone 1-888-924-2050, mlamont@newheadings.com, pjohansen@newheadings.com). Oceanwide provides no clothing. Gear is delivered to the stateroom on the Ortelius, sizes are exchanged onboard, and gear is returned onboard at the end. **"Ortelius-Nov 3 2026" is a selectable voyage date.** At checkout, the Comments field should give the Ushuaia arrival date (2 Nov) and the pre-stay hotel (Hostería América). Prices are USD per person for the voyage, from the site on 30 Sep:
+
+| Item | Price |
+|---|---|
+| Winter Waterproof Parka (insulated) | $89 |
+| Waterproof Rental Set: shell pants + zodiac pack + Leki trekking staff + Gore-Tex shell mitts | $195 (the items bought separately cost $208) |
+| Waterproof INSULATED pants (Helly Hansen) | $79 |
+| Waterproof insulated modular mittens (Gore-Tex/Primaloft) | $79 |
+| Shell pants / pack / trekking staff / shell mitts, each | $45 / $45 / $79 / $39 |
+| New Englander waterproof shell jacket (not insulated) | $49 |
+| OTG goggles / fleece balaclava | $30 / $27 |
+| -11 °C sleeping bag (picked up in Ushuaia the day before) | $150 |
+| Merino boot socks (yours to keep) | $39 |
+
+**Full set for two:**
+- Standard (parka + set): $284 pp → **$568 for two**.
+- Warmest (parka + insulated pants + insulated mitts + pack + staff): $371 pp → **$742 for two**.
+- Optional extras: goggles and balaclava add $57 pp ($114 for two).
+- Boots are not sold on the site. The PIF asks for boot size, which suggests Oceanwide lends them onboard (not confirmed in writing).
+- Basecamp includes camping. Check whether Oceanwide supplies sleeping bags before renting one ($150).
+- Base layers and fleece aren't offered; bring your own.
+- **Order deadline:** none published. The product pages and Oceanwide's pages only say "order as soon as possible" so sizes are set aside (checked 30 Sep). The "Gear Rental (New Headings)" PDF in the booking documents may state one; it hasn't been read. Plan to order by mid-October, or call 1-888-924-2050 to confirm.
+
 ---
 
 ## Gaps and deadlines, worst first
@@ -156,5 +180,6 @@ Steps 2–3 can be saved as a draft now without waiting on the insurance.
 | 7 | Arrange EZE↔AEP transfers, both directions | — |
 | 8 | Chase Oceanwide for the pre-tour documents promised 17 Sep | — |
 | 9 | Hannah: own international flights, at the airport by 1 Nov | Hers, tracked here |
+| 10 | Rent winter gear from New Headings (researched 30 Sep: about $568 for two standard, $742 warmest; see "Gear rental"). Not ordered yet | Order before 3 Nov |
 
 **Standing note:** Shannon wants this file kept current as the single record of the trip. Hannah is busy, so her status is tracked here too. No need to re-send the file unless asked.
