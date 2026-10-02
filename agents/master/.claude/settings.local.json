@@ -1,0 +1,7 @@
+{
+  "model": "opus",
+  "enabledMcpjsonServers": [
+    "voice"
+  ],
+  "tui": "default"
+}

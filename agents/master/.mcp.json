@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "voice": {
+      "command": "bun",
+      "args": ["run", "--cwd", "/channels/voice", "--silent", "start"]
+    }
+  }
+}
