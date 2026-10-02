@@ -1,0 +1,9 @@
+{
+  "model": "claude-opus-5",
+  "enabledMcpjsonServers": [
+    "email-personal",
+    "email-work",
+    "email-gmail"
+  ],
+  "tui": "default"
+}

@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "email-personal": {
+      "type": "stdio",
+      "command": "mcp-email-server",
+      "args": ["stdio"],
+      "env": {
+        "HOME": "/workspace/.email-configs/personal"
+      }
+    },
+    "email-work": {
+      "type": "stdio",
+      "command": "mcp-email-server",
+      "args": ["stdio"],
+      "env": {
+        "HOME": "/workspace/.email-configs/work"
+      }
+    },
+    "email-gmail": {
+      "type": "stdio",
+      "command": "mcp-email-server",
+      "args": ["stdio"],
+      "env": {
+        "HOME": "/workspace/.email-configs/gmail"
+      }
+    }
+  }
+}
