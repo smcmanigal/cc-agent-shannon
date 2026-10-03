@@ -23,7 +23,9 @@ The **nucbox** (`nucbox-evo-x2`), since 2026-10-03, when the agents moved back f
 
 ## Fallback VM
 
-Used 2026-09-22 to 2026-10-03 (nucbox outage). Agents stopped 2026-10-03 (`docker compose down`, watchdog cron removed); the VM itself stays up as a fallback. HubSpot token added 2026-09-23 with read-only scopes. Finance agent added 2026-09-24.
+Used 2026-09-22 to 2026-10-03 (nucbox outage). Agents stopped 2026-10-03 (`docker compose down`, watchdog cron removed). HubSpot token added 2026-09-23 with read-only scopes. Finance agent added 2026-09-24.
+
+**Parked since 2026-10-03:** deallocated, OS disk switched to Standard HDD (64 GB, about $3/month, the only charge left), public IP deleted. Its webhook, deploy keys and tailnet entry are kept. To bring it back, follow the runbook's "Moving to another host", step 1 (a parked VM). Use `--subscription 3a4c03d9-4862-413d-af49-4b856936eed9`: the NucBox's az CLI also has a stale cached "Azure subscription 1" from another tenant. The NIC is `cc-agent-vmVMNic`, ip-config `ipconfigcc-agent-vm`.
 
 | | |
 |---|---|
@@ -32,7 +34,7 @@ Used 2026-09-22 to 2026-10-03 (nucbox outage). Agents stopped 2026-10-03 (`docke
 | Size | Standard_D2als_v6, 2 vCPU, 4 GB, ~$59/mo + disk and IP |
 | Swap | 4 GB `/swapfile` on the OS disk (no resource disk on this size), swappiness 10, added 2026-10-02 |
 | OS | Ubuntu 24.04, user `shannon` (uid 1000), TZ America/Denver |
-| Public IP | 20.25.158.13, SSH from home IP only (NSG rule `ssh-from-home`) |
+| Public IP | deleted 2026-10-03 (was 20.25.158.13); NSG rule `ssh-from-home` kept |
 | Funnel | `https://cc-agent-vm.taild3a0e3.ts.net` -> port 8787 |
 
 The usual host is the **nucbox** (`nucbox-evo-x2` on the tailnet). Never run both hosts at once.
