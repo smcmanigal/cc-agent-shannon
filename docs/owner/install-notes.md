@@ -17,9 +17,13 @@ Four: email, sales, finance, master. `.env` sets `COMPOSE_FILE` to include `dock
 - **Sales:** HubSpot legacy private app token, read-only scopes (contacts, companies, deals, owners, contacts schema). Add the `.write` scopes for contacts, companies and deals if sales should update records; decide first whether those edits need a 🔐 approval like finance's email sends.
 - **Master:** carries the voice line.
 
-## Current VM
+## Current host
 
-Last used 2026-09-22 (nucbox outage). Still running. HubSpot token added 2026-09-23 with read-only scopes. Finance agent added 2026-09-24.
+The **nucbox** (`nucbox-evo-x2`), since 2026-10-03, when the agents moved back from the VM after the 2026-09-22 outage. All four agents, voice and the watchdog run here.
+
+## Fallback VM
+
+Used 2026-09-22 to 2026-10-03 (nucbox outage). Agents stopped 2026-10-03 (`docker compose down`, watchdog cron removed); the VM itself stays up as a fallback. HubSpot token added 2026-09-23 with read-only scopes. Finance agent added 2026-09-24.
 
 | | |
 |---|---|
@@ -36,7 +40,7 @@ The usual host is the **nucbox** (`nucbox-evo-x2` on the tailnet). Never run bot
 ## Voice
 
 - Twilio number +1 813 441 3956 on secure SIP trunk `openai-voice`, origination URI `sip:proj_wWnNQivx0MsyJ3UdsJou5AAu@sip.api.openai.com;transport=tls`. CLI profile `ShannonTwilio` (twilio-cli via nvm Node 24).
-- OpenAI project `proj_wWnNQivx0MsyJ3UdsJou5AAu`: restricted key, budget cap. Webhooks: `https://nucbox-evo-x2.taild3a0e3.ts.net/openai/webhook` (nucbox) and `cc-agent-vm` -> `https://cc-agent-vm.taild3a0e3.ts.net/openai/webhook` (VM). Each has its own signing secret; each host's `channels/voice/.env` holds its own.
+- OpenAI project `proj_wWnNQivx0MsyJ3UdsJou5AAu`: restricted key, budget cap. Webhooks: `https://nucbox-evo-x2.taild3a0e3.ts.net/openai/webhook` (nucbox) and `cc-agent-vm` -> `https://cc-agent-vm.taild3a0e3.ts.net/openai/webhook` (VM). Each has its own signing secret; each host's `channels/voice/.env` holds its own. The nucbox's OpenAI key had stopped working by 2026-10-03 (calls failed with `call.accept_failed` 401 in `channels/voice/logs/events.jsonl` while the test event still got 200) and was replaced.
 - `channels/voice/.env` sets `OWNER_NAME=Shannon`.
 
 ## Finance agent (Shannon only)
@@ -45,6 +49,6 @@ Finance is not part of the template. Its setup, on top of the generic runbook:
 
 1. **Credentials:** the FinanceAgent deploy key (`~/.ssh/finance-agent_ed25519`), or make a new one and add it to `smcmanigal/FinanceAgent` on GitHub.
 2. **Repo:** add a `github-finance` host to `~/.ssh/config` (HostName github.com, `IdentityFile ~/.ssh/finance-agent_ed25519`, `IdentitiesOnly yes`), then `git clone git@github-finance:smcmanigal/FinanceAgent.git agents/finance`. The finance container gets no SSH key: it commits, and you review and push from the host (`git -C agents/finance log -p origin/master..master`, then `git -C agents/finance push`). Also `mkdir ~/.claude-agent-finance`.
-3. **Email login:** finance has its own login to the work mailbox. `install -d -m 700 ~/.finance-agent-secrets/zerolib`, then in `docker compose run --rm -it --entrypoint bash finance-agent` run `mcp-email-server accounts add-oauth2` (microsoft, device code) with the account name **`EFX Work`** exactly. Then set `enable_attachment_download = true` at the top of its `config.toml` (finance saves timesheet PDFs from email and can't change the setting itself), and `save_to_sent = false`. Check with `mcp-email-server emails list -a "EFX Work" --limit 3`.
+3. **Email login:** finance has its own login to the work mailbox. `install -d -m 700 ~/.finance-agent-secrets/zerolib`, then in `docker compose run --rm -it --entrypoint bash finance-agent` run `mcp-email-server accounts add-oauth2` (microsoft, device code) with the account name **`EFX Work`** exactly. Then set `enable_attachment_download = true` at the top of its `config.toml` (finance saves timesheet PDFs from email and can't change the setting itself), and `save_to_sent = false`. Check with `mcp-email-server emails list -a "EFX Work" --page-size 3 --json`.
 4. **Start it after sales, before master.** Before its first start, create `~/.claude-agent-finance/settings.json` from `ops/finance/settings.json`. Its rules (`ops/finance/CLAUDE.local.md`), the email hook script and `ops/finance/managed-settings.json` (which registers the hook where the agent can't change it) are mounted read-only (see `docker-compose.finance.yml`). The hook sends each EFX Work email send to Shannon on Telegram as a 🔐 approval and blocks every other send. It has no schedules. Test it by asking finance on Telegram to send a test email: you should get the 🔐 message, and after Allow, one copy in Sent Items.
-5. **Moving hosts:** review and push finance's commits first. The state bundle adds `.finance-agent-secrets`, `cc-agent/agents/finance/imports` and `cc-agent/agents/finance/exports` (untracked bank CSVs, timesheet PDFs and invoices), and on the new host `git -C agents/finance pull` (clone it as in step 2 if missing).
+5. **Moving hosts:** review and push finance's commits first. The state bundle adds `.finance-agent-secrets`, `cc-agent/agents/finance/imports` and `cc-agent/agents/finance/exports` (untracked bank CSVs, timesheet PDFs and invoices), and on the new host `git -C agents/finance pull` (clone it as in step 2 if missing). If the bundle went in first, `agents/finance` already holds `imports/` and `exports/` and `git clone` refuses the non-empty folder: move it aside, clone, `cp -an` the old folder's contents back (adds only the git-ignored files), check `git status --short --ignored imports exports`, then delete the old folder. On a host that has never run finance, create `shared/finance/{inbox,outbox}` before its first start; otherwise Docker creates `shared/finance` owned by root and the agent can't write to it.
