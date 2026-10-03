@@ -26,6 +26,7 @@ Last used 2026-09-22 (nucbox outage). Still running. HubSpot token added 2026-09
 | Subscription | Azure subscription 1 (shannon@circumspect.biz), pay-as-you-go |
 | Resource group / VM | `cc-agent-rg` / `cc-agent-vm`, West US 3 |
 | Size | Standard_D2als_v6, 2 vCPU, 4 GB, ~$59/mo + disk and IP |
+| Swap | 4 GB `/swapfile` on the OS disk (no resource disk on this size), swappiness 10, added 2026-10-02 |
 | OS | Ubuntu 24.04, user `shannon` (uid 1000), TZ America/Denver |
 | Public IP | 20.25.158.13, SSH from home IP only (NSG rule `ssh-from-home`) |
 | Funnel | `https://cc-agent-vm.taild3a0e3.ts.net` -> port 8787 |
