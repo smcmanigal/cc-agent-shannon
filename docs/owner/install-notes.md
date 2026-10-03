@@ -23,7 +23,7 @@ The **nucbox** (`nucbox-evo-x2`), since 2026-10-03, when the agents moved back f
 
 ## Session names
 
-`<agent>-shannon-<host>`: `email-shannon-nucbox`, `sales-shannon-nucbox`, `finance-shannon-nucbox`, `master-shannon-nucbox` since 2026-10-03. On a host move, change the host part in `agents/{email,sales,master}/CLAUDE.local.md` and `ops/finance/CLAUDE.local.md`, then rename the four sessions at claude.ai/code (runbook, Moving to another host, step 7). On the VM they'd be `-shannon-vm`.
+`<agent>-shannon-<host>`: `email-shannon-nucbox`, `sales-shannon-nucbox`, `finance-shannon-nucbox`, `master-shannon-nucbox` since 2026-10-03. On a host move, change the host part in `agents/{email,sales,master}/CLAUDE.local.md` and `ops/finance/CLAUDE.local.md`, then rename the four sessions at claude.ai/code (runbook, Moving to another host, step 7). The specialists' files also hold master's bridge address (`bridge:session_01XZT6D9545BaEKLcWv11SYC` on the NucBox since 2026-10-03), accepted because Remote Control sometimes shows master under an auto-generated name; update it after a move from the `from` attribute in a specialist's transcript. On the VM they'd be `-shannon-vm`.
 
 ## Fallback VM
 
