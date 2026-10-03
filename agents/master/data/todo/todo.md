@@ -9,7 +9,7 @@ Added 2026-09-22. Shannon is in Tampa 28 Sep – 2 Oct, back around 3 Oct.
 - [ ] **Salary:** renegotiating with Phyllis at work. Shannon talked to her 28 Sep, and she said she would get back to him by Thu 1 Oct. Private Telegram check-in set for Thu 1 Oct, 12:03 PM MT (2:03 PM ET), session-only. Private: don't share with other agents.
 
 ## After returning (~3 Oct)
-- [ ] **Move agents back to local host:** master-agent, sales-agent and email-agent are temporarily running in the cloud because the original host went down. Move all three back to the local host.
+- [x] **Move agents back to local host:** done 2026-10-03. All four agents, voice and the watchdog run on the nucbox again.
 
 ## Someday (no date)
 - [ ] **Web search on the phone line:** add OpenAI's built-in `web_search` tool to the voice bridge backend model (`/channels/voice/server.ts`, `tools: [ASK_TOOL, END_CALL_TOOL]`), plus an instruction to search the web for general questions and send anything about Shannon's own stuff to master-agent. Requires a voice server restart (drops live calls) and a test call, because it isn't confirmed that the live delegation setup accepts built-in tools. Shannon, 24 Sep: "not now". Options were sent on Telegram (msg 101).
