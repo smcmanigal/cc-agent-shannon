@@ -4,7 +4,7 @@ US → Buenos Aires → Ushuaia → Antarctica → Buenos Aires. Possible India 
 
 **Travellers:** Shannon McManigal, Hannah Freeman (hj.freeman@aol.com / freemanhannahj@gmail.com)
 **Assembled:** 2026-09-18, from the personal and gmail accounts via the email agent. Work account not searched.
-**Last updated:** 2026-09-22 — email agent update: insurance bought 21 Sep, final booking documents arrived 22 Sep, PIF reminder 21 Sep. (Previous: 2026-09-18 with Shannon's corrections.)
+**Last updated:** 2026-10-03 — merged the 21 Sep insurance details kept on the NucBox (see the Insurance section). Before that, 2026-09-22 — email agent update: insurance bought 21 Sep, final booking documents arrived 22 Sep, PIF reminder 21 Sep. (Previous: 2026-09-18 with Shannon's corrections.)
 
 ---
 
@@ -115,7 +115,7 @@ Oceanwide's rental partner is **New Headings**: oceanwide.newheadings.com (phone
 1. **No onward or return flight after 18 Nov.** The Copa ticket is one-way and nothing follows the AR 1879 arrival at EZE. Shannon expects to continue to India, so the return home will probably originate there — **needs booking, and it gates the end of the trip.**
 2. **Hannah books her own international flights.** Confirmed by Shannon 18 Sep 2026: Hannah arranges her own long-haul both ways, and is responsible for getting herself to the airport by **1 Nov 2026**. She is busy, so the tracking sits here. Copa carries Shannon alone; Aerolíneas (QNUIFU) and the voyage carry both. **No action for us beyond keeping her status current here.**
 3. **PIF still owed, and blocked.** *(Mechanism confirmed 18 Sep — see the PIF section below.)* Due 3 Aug 2026 (3 months before departure); reminders 9 Jul, 12 Aug, 25 Aug, 9 Sep. Shannon confirmed 18 Sep it is still outstanding — **it asks for more than they had at the time: hotel details for the unbooked nights, insurance details, and similar.** So the PIF unblocks only once the hotels and insurance below are settled. Still the most urgent item.
-4. **Mandatory insurance not purchased.** Oceanwide requires cancellation + medical cover including emergency evacuation. Nothing in either mailbox, and Shannon confirmed it is still outstanding — it is also **an input the PIF needs.** They can refuse boarding over this.
+4. **Insurance bought 21 Sep — but the dates are wrong.** AXA Explorer Select, policy AGGUS000004456. Medical + emergency evacuation cover, which is what Oceanwide requires, so the boarding risk is gone and the PIF is unblocked. **The declared trip window is 1–20 Nov, but he departs Las Vegas 30 Oct** — roughly two days (US departure, Panama connection, first night in Buenos Aires) fall outside coverage. **Trip Cost was declared $0.00**, so cancellation/interruption pay essentially nothing. See the Insurance section.
 5. **Inter-airport transfers needed, probably both directions.** Arrive EZE 21:57 on 30 Oct, depart AEP 10:50 on 2 Nov — different airports ~45 min apart. Shannon confirmed 18 Sep they will eventually need a transfer **in both directions** (EZE→AEP outbound, and back again after the 18 Nov EZE arrival). Nothing booked.
 6. **3 nights unbooked in Buenos Aires** (30 Oct – 2 Nov). Shannon confirmed 18 Sep these are still needed. Also a PIF input.
 7. **3 nights unbooked in Ushuaia post-cruise** (15–18 Nov). Shannon confirmed 18 Sep these are still needed. Also a PIF input.
@@ -124,8 +124,8 @@ Oceanwide's rental partner is **New Headings**: oceanwide.newheadings.com (phone
 10. **Rate/credit question unresolved**, and now that the balance is paid it's a refund to chase rather than a deduction.
 11. **Cancellation is no longer cheap.** Oceanwide charges 20% up to 90 days before departure; that window closed ~5 Aug. Steeper tiers didn't survive PDF extraction.
 
-## No transfers, no insurance, no visa/passport correspondence found
-Nothing booked for airport, inter-airport, or hotel transfers. No travel insurance email. No Argentina entry or passport/visa correspondence, and no health or medical form beyond the PIF.
+## No transfers, no visa/passport correspondence found
+Nothing booked for airport, inter-airport, or hotel transfers. No Argentina entry or passport/visa correspondence, and no health or medical form beyond the PIF. *(Insurance was the fourth gap here until 21 Sep — now purchased, see below.)*
 
 ---
 
@@ -144,26 +144,49 @@ Fetched by plain GET from inside the email agent's container so the token never 
 - **Save-and-resume: YES.** Two buttons, `[Save as draft]` and `[Save and send]`. The send button raises a confirm modal: *"Are you sure? Have you completed all parts (including the hotel and flight information – if applicable)?"*
 - **Shannon's form is substantially complete already.** Pre-filled and locked: booking 131965673, trip OTL21-26, cruise name, date 2026-11-03, agency. Already entered by Shannon: title/name/DOB/place of birth/nationality, full passport details, home address, phone, email, all three emergency-contact fields, insurance contact phone, one medication entry, boot size EU 44 / UK M10 / UK W9, all 13 medical questions (Q1 fit-to-walk = yes, Q2–Q13 = no), and both the vaccination and local-travel-rules declarations ticked.
 - **Still empty — four things:**
-  1. Travel insurance provider name — required.
-  2. Policy number — required. *(The insurance contact phone is oddly already filled.)*
+  1. Travel insurance provider name — required. **Answerable since 21 Sep: AXA Explorer Select (underwriter United States Fire Insurance Company; administrator AXA Assistance USA).**
+  2. Policy number — required. **Answerable since 21 Sep: AGGUS000004456.** *(The insurance contact phone was oddly already filled.)*
   3. Inbound and outbound flights — all fields required, all empty.
   4. The two final agreement checkboxes — required, unticked.
 - **Hotels are not a blocker.** The section takes "Hotel details" or "Other"; both are set to "Other" with the free text *"Not yet booked"*, which is an accepted answer. Its stated purpose: *"Please provide where you are staying 1 day prior and 1 day after your Arctic/Antarctic expedition. In case of an emergency and we cannot reach you directly, we will notify the hotel we have on file."* Worth updating the embarkation entry to Hostería América now that it is booked.
 - **Flights are answerable today.** The form wants only the legs into and out of the *expedition* port: *"Please only provide the inbound and outbound flight information of the embarkation and disembarkation point."* That is Ushuaia, not the US — so **inbound = AR 1888 AEP→USH 2 Nov 10:50–14:30, outbound = AR 1879 USH→EZE 18 Nov 17:30–21:00.** The Copa long-haul and the missing US return are irrelevant here.
-- **Insurance is the only true blocker.** Provider and policy number are both required with no "Other" escape hatch.
+- **Insurance was the only true blocker, and it is cleared.** Provider and policy number are both required with no "Other" escape hatch; both are now in hand (21 Sep). **Nothing blocks either PIF any more.**
 - **No activity sign-up in this form** — camping, kayaking, mountaineering, snowshoeing and the photo workshop appear only inside the pre-filled cruise name, and the word "waiver" appears nowhere. Activity selection happens elsewhere.
 - **No lead-time traps.** Passport is typed, not scanned (attachments are optional). The mandatory Child Policy upload is hidden/not applicable. No medical certificate required up front, though Oceanwide *"reserve the right to ask for a physician assessment for any passenger"* — unlikely given the answers given.
 - **Cancellation clause, quoted:** *"In the event that you have made a reservation on an Oceanwide Expedition vessel, and subsequently are unable or refuse to complete this medical form for any reason by the final payment date as specified in our terms and conditions, Oceanwide Expeditions reserves the right to consider your reservation as cancelled as of that day and applicable cancellation penalties will apply."* **The final payment date has already passed** (paid in full 17 Sep), so on a strict reading they already have grounds. In practice they are paid and still politely reminding — but it is the reason to finish this in days, not weeks.
 - **Hannah's form: status unknown.** Not opened. Same URL pattern with a different token, structurally the same form. Shannon's being nearly complete says nothing about hers, and hers carries the same regulatory requirement and the same cancellation clause.
 
 ### The remaining five steps
-1. Buy travel insurance with medical + emergency evacuation cover — the only true dependency.
+1. ~~Buy travel insurance with medical + emergency evacuation cover~~ — **done 21 Sep.** Enter provider *AXA Explorer Select* and policy *AGGUS000004456*.
 2. Enter the two Aerolíneas flights (data already in hand).
 3. Update the embarkation hotel from "Not yet booked" to Hostería América, 2 Nov, conf 5524431251.
 4. Tick the two agreements, then Save and send.
 5. Repeat for Hannah's form.
 
-Steps 2–3 can be saved as a draft now without waiting on the insurance.
+Nothing is waiting on anything else now — all five steps are answerable today, for both forms.
+
+---
+
+## Insurance — purchased 21 Sep 2026
+*Found in the personal account by the email agent, 21 Sep, read-only.*
+
+- **Plan:** AXA Explorer Select, bought through InsureMyTrip (IMT Services LLC). Underwriter: United States Fire Insurance Company. Administrator: AXA Assistance USA.
+- **Policy number:** AGGUS000004456 (order AXMC4446463O). Purchased 21 Sep 2026, premium $68.93.
+- **Covers both travellers:** Shannon (primary) and Hannah Freeman. Destination listed as Antarctica.
+- **Declared coverage dates:** 1 Nov – 20 Nov 2026.
+- **Emergency Medical Evacuation:** up to $500,000. Medically Necessary Repatriation, Repatriation of Remains and Medical Escort included. Ancillary Medical Evacuation $10,000. Political/Security & Natural Disaster Evacuation $100,000.
+- **Accident & Sickness Medical and Dental:** up to $250,000 (dental sublimit $2,000). AD&D $50,000.
+- **Phones:** assistance 1-855-327-1441; 24/7 emergency medical 1-855-327-1442 US / 1-312-935-1719 outside US; claims 1-888-957-5015. Portal: axa.mytripcompanion.us.
+
+**This satisfies Oceanwide's requirement** — medical plus emergency evacuation, not a cancellation-only product.
+
+### Two defects, both open
+
+1. **The dates do not match the travel.** The policy wording ties medical and evacuation benefits to the trip: *"Coverage begins on the date and time You depart on the first Travel Arrangement... for Your Trip,"* ending on the Scheduled Return Date. **His first travel arrangement departs 30 Oct** (Copa CM 253, Las Vegas 01:48, order BLBOV5, ticket 2302157222060 — verified from the ticket, not secondhand). The declared start is 1 Nov. So the US departure, the Panama connection and the first night in Buenos Aires sit outside the window — exactly the kind of mismatch an insurer leans on at claim time. **Fix: phone InsureMyTrip and correct the trip dates.** Cheap now, expensive to argue later.
+   - Return side looks fine: AR 1879 USH→EZE 18 Nov is inside the 20 Nov end. But **no Copa return e-ticket exists in his mail**, so the flight home is still unconfirmed — when booked, check it lands on or before 20 Nov or extend the policy.
+2. **Trip Cost was declared $0.00.** Trip Cancellation pays *"up to 100% of the non-refundable insured Trip Cost"* and Trip Interruption 150% of it. At zero, both pay essentially nothing. On a cruise already paid in full, there is **no cancellation or interruption protection at all.** This may be deliberate — the medical and evacuation limits are flat amounts and are unaffected — but it is not what "I'm insured for the trip" usually means.
+
+**Oceanwide has never asked for proof of insurance** in any email since August; their only open chase is the PIF. So no external deadline presses on fixing the dates — only the 30 Oct departure.
 
 ---
 
@@ -173,8 +196,8 @@ Steps 2–3 can be saved as a draft now without waiting on the insurance.
 |---|------|--------|
 | 1 | Book Buenos Aires hotel, 30 Oct – 2 Nov (3 nights) | Not a PIF blocker — "Not yet booked" is accepted |
 | 2 | Book Ushuaia hotel, 15–18 Nov (3 nights) | Not a PIF blocker — "Not yet booked" is accepted |
-| 3 | **Buy travel insurance — medical + emergency evacuation, per Oceanwide** | **The one hard PIF blocker, plus boarding** |
-| 4 | Finish **both** PIFs — Shannon's needs only insurance, the two Aerolíneas flights, and two checkboxes; Hannah's status is unknown | Overdue since 3 Aug; insurance is the only hard dependency |
+| 3 | ~~Buy travel insurance~~ — **bought 21 Sep, AXA Explorer Select.** Now: **call InsureMyTrip to move the trip start date from 1 Nov back to 30 Oct** | Was the hard blocker; now a two-day coverage gap to close |
+| 4 | Finish **both** PIFs — **unblocked since 21 Sep.** Shannon's needs the insurance details (now in hand), the two Aerolíneas flights, and two checkboxes; Hannah's status is unknown | Overdue since 3 Aug. **Nothing blocks it any more — this is now the most urgent item** |
 | 5 | Confirm the cabin is a shared **Twin Window**, in writing, with Oceanwide | — |
 | 6 | Decide the India leg, then book the flight home from there | End of trip |
 | 7 | Arrange EZE↔AEP transfers, both directions | — |
