@@ -21,6 +21,10 @@ Four: email, sales, finance, master. `.env` sets `COMPOSE_FILE` to include `dock
 
 The **nucbox** (`nucbox-evo-x2`), since 2026-10-03, when the agents moved back from the VM after the 2026-09-22 outage. All four agents, voice and the watchdog run here.
 
+## Session names
+
+`<agent>-shannon-<host>`: `email-shannon-nucbox`, `sales-shannon-nucbox`, `finance-shannon-nucbox`, `master-shannon-nucbox` since 2026-10-03. On a host move, change the host part in `agents/{email,sales,master}/CLAUDE.local.md` and `ops/finance/CLAUDE.local.md`, then rename the four sessions at claude.ai/code (runbook, Moving to another host, step 7). On the VM they'd be `-shannon-vm`.
+
 ## Fallback VM
 
 Used 2026-09-22 to 2026-10-03 (nucbox outage). Agents stopped 2026-10-03 (`docker compose down`, watchdog cron removed). HubSpot token added 2026-09-23 with read-only scopes. Finance agent added 2026-09-24.

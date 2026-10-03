@@ -206,3 +206,7 @@ Nothing is waiting on anything else now — all five steps are answerable today,
 | 10 | Rent winter gear from New Headings (researched 30 Sep: about $568 for two standard, $742 warmest; see "Gear rental"). Not ordered yet | Order before 3 Nov |
 
 **Standing note:** Shannon wants this file kept current as the single record of the trip. Hannah is busy, so her status is tracked here too. No need to re-send the file unless asked.
+
+## Insurance check 2026-10-03 (email-agent)
+- Current policy: AXA Explorer Select AGGUS000004456 (InsureMyTrip order AXMC4446463O), Shannon + Hannah Freeman, 11/01–11/20/2026, $68.93.
+- Date change requested 9/28 (InsureMyTrip Case #00038816). On 9/30 they quoted new dates 10/30–12/5/2026 for +$68.74 and need Shannon's authorization (reply to the "Case # 00038816" email or call 800-487-4722). Not authorized yet; dates NOT changed. The change is effective only once a rep confirms in writing (those emails get a "[*** SPAM ***]" subject tag but land in the personal INBOX).
